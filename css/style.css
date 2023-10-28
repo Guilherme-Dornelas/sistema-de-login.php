@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+form{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    border: rgb(97, 97, 97) 1px solid;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+form > div > input{
+    width: 100px;
+}
+
+form > div > h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form > div > h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
